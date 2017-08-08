@@ -3911,7 +3911,10 @@
 			}
 
 			function s(t) {
-				b = t, e(".edit-page .orig-ins").remove(), d(".edit-page"), e(".edit-page").append('<img class="orig-ins" src="http://laosiji.ruguoapp.com/ins/ins' + t.id + '.jpg" />'), e(".upload-wrap").attr("class", ["upload-wrap", "line" + t.lines, t.extra ? "extra" : "", t.move ? "move" + t.move : ""].join(" ")), window.document.title = w.replace("#", t.name), e(".hide-avatar").attr("src", "http://laosiji.ruguoapp.com/ins/insAvatar" + t.id + ".jpg"), e(".ins-name").text(b.name), e(".link-img").attr("src", "http://laosiji.ruguoapp.com/ins/insAvatar" + b.id + ".jpg")
+				b = t, e(".edit-page .orig-ins").remove(), 
+				d(".edit-page"), 
+				e(".edit-page").append('<img class="orig-ins" src="http://laosiji.ruguoapp.com/ins/ins' + t.id + '.jpg" />'), 
+				e(".upload-wrap").attr("class", ["upload-wrap", "line" + t.lines, t.extra ? "extra" : "", t.move ? "move" + t.move : ""].join(" ")), window.document.title = w.replace("#", t.name), e(".hide-avatar").attr("src", "http://laosiji.ruguoapp.com/ins/insAvatar" + t.id + ".jpg"), e(".ins-name").text(b.name), e(".link-img").attr("src", "http://laosiji.ruguoapp.com/ins/insAvatar" + b.id + ".jpg")
 			}
 
 			function l(e, t) {
