@@ -13,6 +13,39 @@ textarea {
 * {
 	-webkit-font-smoothing: antialiased
 }
+.logon-backimg {
+	display: block;
+	width: 100%
+}
+
+.logIdInput {
+	display: block;
+	position: absolute;
+	left: 3rem;
+	bottom: 4.7rem;
+	box-sizing: border-box;
+	width: 4rem;
+	border: none;
+	border-radius: .213333rem;
+	background: hsla(0, 0%, 100%, .45);
+	color: gray;
+	text-align: center
+}
+
+[data-dpr="1"] .logIdInput {
+	font-size: 26px;
+	padding: 10px 20px
+}
+
+[data-dpr="2"] .logIdInput {
+	font-size: 28px;
+	padding: 20px 40px
+}
+
+[data-dpr="3"] .logIdInput {
+	font-size: 42px;
+	padding: 30px 60px
+}
 
 .wrap {
 	width: 100%;
@@ -20,6 +53,33 @@ textarea {
 	min-height: 100vh;
 	margin: auto;
 	overflow: hidden
+}
+.logSubmit-button {
+	display: block;
+	position: absolute;
+	left: 2.5rem;
+	bottom: 2.95rem;
+	box-sizing: border-box;
+	width: 5rem;
+	border: none;
+	border-radius: .213333rem;
+	background: hsla(0, 0%, 100%, 0);
+	color: lightcoral;
+	text-align: center
+}
+[data-dpr="1"] .logSubmit-button {
+	font-size: 28px;
+	padding: 10px 20px
+}
+
+[data-dpr="2"] .logSubmit-button {
+	font-size: 28px;
+	padding: 20px 40px
+}
+
+[data-dpr="3"] .logSubmit-button {
+	font-size: 42px;
+	padding: 30px 60px
 }
 
 .hide-avatar {
@@ -39,6 +99,12 @@ textarea {
 	overflow: hidden;
 	position: relative
 }
+.page-logon {
+	background: #fff;
+	overflow: hidden;
+	position: relative
+}
+
 
 .logo-wrap {
 	position: absolute;

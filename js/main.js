@@ -7,7 +7,7 @@ $(".page-select").hide();
 $(".edit-page").hide();
 $(".result-page").hide();
 
-$('input[type="submit"]').click(function(){
+$('.logSubmit-button').click(function(){
 	$(".page-logon").remove();
 	$(".page-select").show();
 })
