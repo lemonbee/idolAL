@@ -27,7 +27,7 @@ textarea {
 	width: 4rem;
 	border: none;
 	border-radius: .213333rem;
-	background: hsla(0, 0%, 100%, .45);
+	background: hsla(0, 0%, 100%, 0);
 	color: gray;
 	text-align: center
 }
@@ -81,7 +81,88 @@ textarea {
 	font-size: 42px;
 	padding: 30px 60px
 }
+.maleidol-btn{
+	position: absolute;
+	left: 5.4rem;
+	bottom: 9.8rem;
+	box-sizing: border-box;
+	width: 3.5rem;
+	border: none;
+	border-radius: .213333rem;
+	background: hsla(0, 0%, 100%, 0);
+	color: lightcoral;
+	text-align: center
+	
+}
+[data-dpr="1"] .maleidol-btn {
+	font-size: 42px;
+	padding: 10px 20px
+}
 
+[data-dpr="2"] .maleidol-btn {
+	font-size: 28px;
+	padding: 20px 40px
+}
+
+[data-dpr="3"] .maleidol-btn {
+	font-size: 42px;
+	padding: 30px 60px
+}
+.femaleidol-btn{
+	display: block;
+	position: absolute;
+	left: 1.1rem;
+	bottom: 9.8rem;
+	box-sizing: border-box;
+	width: 3.5rem;
+	border: none;
+	border-radius: .213333rem;
+	background: hsla(0, 0%, 100%, 0);
+	color: lightcoral;
+	text-align: center
+}
+[data-dpr="1"] .femaleidol-btn {
+	font-size: 42px;
+	padding: 10px 20px
+}
+
+[data-dpr="2"] .femaleidol-btn {
+	font-size: 28px;
+	padding: 20px 40px
+}
+
+[data-dpr="3"] .femaleidol-btn {
+	font-size: 42px;
+	padding: 30px 60px
+}
+.refresh-btn{
+	background-color:red;
+	display: block;
+	position: absolute;
+	left: 3rem;
+	bottom: 7.9rem;
+	box-sizing: border-box;
+	width: 4rem;
+	border: none;
+	border-radius: .213333rem;
+	background: hsla(0, 0%, 100%, 0);
+	color: lightcoral;
+	text-align: center
+}
+[data-dpr="1"] .refresh-btn {
+	font-size: 32px;
+	padding: 10px 20px
+}
+
+[data-dpr="2"] .refresh-btn {
+	font-size: 28px;
+	padding: 20px 40px
+}
+
+[data-dpr="3"] .refresh-btn {
+	font-size: 42px;
+	padding: 30px 60px
+}
 .hide-avatar {
 	position: absolute;
 	z-index: -999;
@@ -101,6 +182,11 @@ textarea {
 }
 .page-logon {
 	background: #fff;
+	overflow: hidden;
+	position: relative
+}
+.page-select{
+		background: #fff;
 	overflow: hidden;
 	position: relative
 }
